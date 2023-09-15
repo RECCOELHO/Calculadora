@@ -23,3 +23,9 @@ function calcular(){
         document.getElementById('resultado').innerHTML = '<img src="https://i.gifer.com/origin/00/00ae53a95ee7af0be395f5291d792c9a_w200.gif" alt="">'
     }
 }
+
+document.addEventListener("Keydown", function(event) {
+    if (event.keyCode === 55){
+        clean();
+    }
+});
